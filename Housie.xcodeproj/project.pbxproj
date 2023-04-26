@@ -13,6 +13,7 @@
 		56C39CF129F74FEE004650B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C39CEF29F74FEE004650B0 /* Main.storyboard */; };
 		56C39CF329F74FF0004650B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C39CF229F74FF0004650B0 /* Assets.xcassets */; };
 		56C39CF629F74FF0004650B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C39CF429F74FF0004650B0 /* LaunchScreen.storyboard */; };
+		56C39D0929F8A9DB004650B0 /* Archivo-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56C39D0829F8A9DB004650B0 /* Archivo-VariableFont_wdth,wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		56C39CF229F74FF0004650B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C39CF529F74FF0004650B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56C39CF729F74FF0004650B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C39D0829F8A9DB004650B0 /* Archivo-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		56C39CE829F74FEE004650B0 /* Housie */ = {
 			isa = PBXGroup;
 			children = (
+				56C39D0729F8A9C7004650B0 /* Fonts */,
 				56C39CE929F74FEE004650B0 /* AppDelegate.swift */,
 				56C39CEB29F74FEE004650B0 /* SceneDelegate.swift */,
 				56C39CED29F74FEE004650B0 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				56C39CF729F74FF0004650B0 /* Info.plist */,
 			);
 			path = Housie;
+			sourceTree = "<group>";
+		};
+		56C39D0729F8A9C7004650B0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				56C39D0829F8A9DB004650B0 /* Archivo-VariableFont_wdth,wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C39D0929F8A9DB004650B0 /* Archivo-VariableFont_wdth,wght.ttf in Resources */,
 				56C39CF629F74FF0004650B0 /* LaunchScreen.storyboard in Resources */,
 				56C39CF329F74FF0004650B0 /* Assets.xcassets in Resources */,
 				56C39CF129F74FEE004650B0 /* Main.storyboard in Resources */,
